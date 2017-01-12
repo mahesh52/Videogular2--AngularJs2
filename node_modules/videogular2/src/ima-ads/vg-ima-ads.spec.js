@@ -1,0 +1,6 @@
+describe('Videogular IMA Ads', function () {
+    it('Should be ok', function () {
+        expect("ok").toBe("ok");
+    });
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidmctaW1hLWFkcy5zcGVjLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsidmctaW1hLWFkcy5zcGVjLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFFBQVEsQ0FBQyxvQkFBb0IsRUFBRTtJQUMzQixFQUFFLENBQUMsY0FBYyxFQUFFO1FBQ2YsTUFBTSxDQUFDLElBQUksQ0FBQyxDQUFDLElBQUksQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUM1QixDQUFDLENBQUMsQ0FBQztBQUNQLENBQUMsQ0FBQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZGVzY3JpYmUoJ1ZpZGVvZ3VsYXIgSU1BIEFkcycsICgpID0+IHtcbiAgICBpdCgnU2hvdWxkIGJlIG9rJywgKCkgPT4ge1xuICAgICAgICBleHBlY3QoXCJva1wiKS50b0JlKFwib2tcIik7XG4gICAgfSk7XG59KTtcblxuaW50ZXJmYWNlIERlY29yYXRvckludm9jYXRpb24ge1xuICB0eXBlOiBGdW5jdGlvbjtcbiAgYXJncz86IGFueVtdO1xufVxuIl19

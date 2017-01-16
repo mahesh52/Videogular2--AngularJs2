@@ -20,7 +20,10 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+       "scripts": [
+        "../node_modules/video.js/dist/video.js",
+        "../dist/videojs-contrib-hls.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

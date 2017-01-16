@@ -24,10 +24,13 @@
 
         <vg-fullscreen></vg-fullscreen>
     </vg-controls>
-
-    <video vgMedia #media id="singleVideo" preload="auto" crossorigin>
-        <source *ngFor="let video of sources" [src]="video.src" [type]="video.type">
-        <track kind="subtitles" label="English" src="http://static.videogular.com/assets/subs/pale-blue-dot.vtt" srclang="en" default>
-        <track kind="subtitles" label="Español" src="http://static.videogular.com/assets/subs/pale-blue-dot-es.vtt" srclang="es">
+<video vgMedia #media id="singleVideo"  class="video-js vjs-default-skin"
+        controls preload="auto" width="640" height="264"
+        data-setup='{"example_option":true}'>
+        <source src="http://solutions.brightcove.com/jwhisenant/hls/apple/bipbop/bipbopall.m3u8" type="application/x-mpegURL" />
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
     </video>
+	
+	
+   
 </vg-player>
